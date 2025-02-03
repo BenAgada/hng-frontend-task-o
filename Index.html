@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile card</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <div class="profile-card" data-testid="profile-card">
+    <div class="main">
+      <div class="profile">
+        <div class="profile-img" data-testid="profile-img">
+          <img src="img/home-img.png" alt="Agada A Benedict" data-testid="profile-picture">
+        </div>
+      </div>
+      <div class="detail">
+        <h2 data-testid="fullName">Agada Akogwu Benedict</h2>
+        <h3 data-testid="jobTitle">FullStack Python Developer</h3>
+        <div class="img">
+          <p data-testid="shortBio" class="shortBio">
+            A Full Stack Python Developer with expertise in designing and building dynamic web applications, leveraging a wide
+            range
+            of technologies including Python (Django, Flask), JavaScript (React, Node.js), HTML/CSS, and databases like
+            PostgreSQL
+            and MongoDB. Skilled in both front-end and back-end development, with a strong understanding of RESTful APIs,
+            clou,
+            and version control systems (Git). Passionate about writing clean, efficient code and solving
+            complex problems while delivering scalable, maintainable solutions. Always staying up-to-date with the latest
+            industry
+            trends and best practices.
+          </p>
+        </div>
+      
+        <p data-testid="currentLocation" class="currentLocation">Address: <span>Lagos - Nigeria</span></p>
+        <a data-testid="emailAddress" href="mailto:agadaakogwubenedict@gmail.com" class="email">Email:
+          <span>agadaakogwubenedict@gmail.com</span></a>
+      </div>
+      <div class="socialLinks" data-testid="socialLinks">
+        <a href="https://www.linkedin.com/in/agada-benedict-b911a8227/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/BenAgada" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://www.facebook.com/benagadaojema" target="_blank"><i class='bx bxl-facebook' target="_blank"></i></a>
+      </div>
+      <div class="footer">
+        <p id="utc-time" data-testid="currentTimeUTC"></p>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html> 
